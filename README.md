@@ -1,2 +1,7 @@
-# daily-commit-049
-My forty-ninth daily GitHub activity repository
+def shortest_word(text):
+    words = text.split()
+    return min(words, key=len)
+
+if __name__ == "__main__":
+    sample = "GitHub daily commits improve consistency"
+    print(f"Shortest word: {shortest_word(sample)}")
