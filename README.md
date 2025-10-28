@@ -1,4 +1,4 @@
-def shortest_word(text):
+def shortest_word(tex):
     words = text.split()
     return min(words, key=len)
 
